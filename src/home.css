@@ -47,3 +47,62 @@
 .btn-primary:hover {
   background: linear-gradient(90deg,#6b21a8,#0e7490);
 }
+/* 🌐 === Responsive Design for Home Page === */
+
+/* 🎯tablette(≤ 1024px) */
+@media (max-width: 1024px) {
+  .home-container {
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .home-title {
+    font-size: 28px;
+  }
+
+  .home-description {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .home-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .home-buttons a {
+    width: 70%;
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
+
+/* 📱 telephone(≤ 768px) */
+@media (max-width: 768px) {
+  .home-container {
+    width: 95%;
+    padding: 15px;
+    margin-top: 20px;
+  }
+
+  .home-title {
+    font-size: 22px;
+  }
+
+  .home-description {
+    font-size: 15px;
+  }
+
+  .home-buttons {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .home-buttons a {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
